@@ -1,0 +1,27 @@
+template:
+    url: https://github.com/skimia/Template-Dark
+
+exclude:
+    - src
+    - tests
+    - vendor
+    - gh-pages
+
+baseUrl: http://skimia.github.io/os-docs
+
+github:
+    user: skimia
+    repo: os
+
+title: Skimia OS Framework
+subTitle: The Skimia OS Framework Project
+
+
+menu:
+    sections:
+        setup:
+            name: Setup
+            items:
+                installation:
+                    text: Installation
+                    relativeUrl: setup/installation.html
